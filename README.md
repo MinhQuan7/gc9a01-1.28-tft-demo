@@ -4,8 +4,7 @@ Firmware ESP32 TFT 1.28: nhận downlink từ DTG IoT Hub và vẽ ảnh phòng 
 
 ## Datastream
 
-| Hub downlink | Ảnh flash |
-|---|---|
+| Hub downlink|
 | `den_1'
 | `den_2'
 | `den_3'
