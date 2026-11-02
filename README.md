@@ -12,16 +12,20 @@ Firmware ESP32 TFT 1.28: nhận downlink từ DTG IoT Hub và vẽ ảnh phòng 
 
 ## Pin
 
-| Signal | GPIO |
-|---|---|
-| MOSI | 23 |
-| SCLK | 18 |
-| CS | 2 |
-| DC | 4 |
-| RST | 5 |
-| BL | 22 |
+| Signal | LCD | GPIO |
+|---|---|---|
+| MOSI | SDA | 23 |
+| SCLK | SCL | 18 |
+| CS | CS | 2 |
+| DC | DC | 4 |
+| RST | RST | 5 |
+| VCC | VCC | 3V3 |
+| GND | GND | GND |
+| BL | (module 7-pin: gắn sẵn VCC) | 22 |
 
 SPI 20 MHz. Đổi pin trong `include/tft_setup.h`.
+
+![ESP32 GC9A01 wiring](wiring.png)
 
 ## Cấu trúc
 
